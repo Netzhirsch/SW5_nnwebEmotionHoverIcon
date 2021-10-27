@@ -7,9 +7,9 @@
 	{/if}
 	
 	{if $Data.nnwebEmotionHoverIcon_link_aktivieren}
-	<a class="nnweb_emotion_hover_icon" href="{$link}" target="{$Data.nnwebEmotionHoverIcon_link_target}">
+		<a class="nnweb_emotion_hover_icon" href="{$link}" target="{$Data.nnwebEmotionHoverIcon_link_target}">
 	{else}
-	<div class="nnweb_emotion_hover_icon">
+		<div class="nnweb_emotion_hover_icon">
 	{/if}
 		
 		<div class="background-image" style="background-image:url('{$Data.nnwebEmotionHoverIcon_hintergrundbild}');background-position:{$Data.nnwebEmotionHoverIcon_hintergrundposition};"></div>
@@ -20,10 +20,10 @@
 			<div class="background-color" style="background-color:{$Data.nnwebEmotionHoverIcon_hintergrundfarbe};"></div>
 			
 			<!-- Icon -->
-			{if $Data.nnwebEmotionHoverIcon_ueberschrift_anzeigen}
-			<div class="wrap-icon">
-				<img src="{$Data.nnwebEmotionHoverIcon_icon}"/>
-			</div>
+			{if $Data.nnwebEmotionHoverIcon_icon_anzeigen}
+				<div class="wrap-icon">
+					<img src="{$Data.nnwebEmotionHoverIcon_icon}" alt="Icon"/>
+				</div>
 			{/if}
 			
 			<!-- Headline -->
@@ -41,9 +41,9 @@
 		</div>
 		
 	{if $Data.nnwebEmotionHoverIcon_link_aktivieren}
-	</a>
+		</a>
 	{else}
-	</div>
+		</div>
 	{/if}
 	
 {/block}

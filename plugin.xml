@@ -3,7 +3,7 @@
     <label lang="de">Hover-Effekt mit Icon für Einkaufswelten</label>
     <label>Hover effect with icon for emotion elements</label>
 
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
     <license>proprietary</license>
     <link>https://www.netzhirsch.de</link>
@@ -13,13 +13,19 @@
     <description lang="de">Dieses Plugin bietet ein Einkaufswelten-Element mit Hover-Effekt und Icon.</description>
     <description>This Plugin provides an emotion element with hover effect and icon.</description>
 
-    <changelog version="1.0.0">
-        <changes lang="de">Erstveröffentlichung des Plugins.</changes>
-        <changes>Initial Release of the plugin.</changes>
+    <changelog version="1.0.2">
+        <changes lang="de">Icon sollte auch angezeigt werden, wenn keine Überschrift angezeigt werden soll.</changes>
+        <changes>Icon should also be displayed if no heading should be displayed.</changes>
     </changelog>
 
     <changelog version="1.0.1">
         <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
         <changes>Compatibility with Shopware 5.7 made.</changes>
     </changelog>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung des Plugins.</changes>
+        <changes>Initial Release of the plugin.</changes>
+    </changelog>
+
 </plugin>
